@@ -51,5 +51,6 @@ setup(
     author_email="swanson.anders@gmail.com",
     url="https://github.com/dbt-msft/dbt-synapse-serverless",
     packages=find_packages(),
-    include_package_data=True
+    include_package_data=True,
+    install_requires=[]
 )
